@@ -29,7 +29,7 @@ from xgboost import XGBClassifier
 RANDOM_STATE = 42
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 MODELS_DIR = os.path.join(BASE_DIR, "models")
-DATA_PATH = os.path.join(BASE_DIR, "data", "heart.csv")
+DATA_PATH = os.path.join(BASE_DIR, "heart.csv")
 
 FEATURE_NAMES = [
     "age", "sex", "cp", "trestbps", "chol", "fbs", "restecg",
